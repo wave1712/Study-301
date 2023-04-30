@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2505b25ddfc1ccf418da1689d2daf024, type: 3}
+  m_Name: Test Level
+  m_EditorClassIdentifier: 
+  _barcode:
+    _id: STUDYteam.KIT301STUDY.Level.TestLevel
+    generated: 1
+  _barcodeOld:
+    _id: null.empty.barcode
+    generated: 0
+  _slimCode:
+    _byteArray: 
+  _title: Test Level
+  _description: 
+  _unlockable: 0
+  _redacted: 0
+  _pallet: {fileID: 11400000, guid: 8726a2fd1994a7043bba98951dd14d32, type: 2}
+  _tags: []
+  _mainAsset:
+    _assetGUID: d5fe2952d3e0e5b41bc8bf695cb6c7b7
+    _editorAssetChanged: 0
+  _additionalAssetReferences: []
+  _multiScene: 0
+  _persistentScenes: []
+  _chunkScenes: []
+  _editorScenes: []
