@@ -79,11 +79,12 @@ public class PdfNavigator : MonoBehaviour
         }
 
         //Make a new texture and fill it based on the rasterized pdf
-        Texture2D tex = new Texture2D(res.x, res.y);
+        Texture2D tex = new Texture2D(1920, 1920);
+        Vector2Int pageCornerCoords = (Vector2Int.one*1920 - res)/2;
 
         for (int i = 0; i < arr.Length; i++)
         {
-            tex.SetPixel(i % res.x, res.y - (i / res.x), new Color(
+            tex.SetPixel(pageCornerCoords.x + (i % res.x), pageCornerCoords.y + (res.y - (i / res.x)), new Color(
                         1 - ((arr[i] << 8) >> 24), //R
                         1 - ((arr[i] << 16) >> 24), //G
                         1 - ((arr[i] << 24) >> 24) //B
