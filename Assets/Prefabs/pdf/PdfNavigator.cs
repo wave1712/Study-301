@@ -4,6 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Threading;
+using TMPro;
 using Unity.Collections;
 using Unity.Jobs;
 using UnityEngine;
@@ -14,18 +15,15 @@ public class PdfNavigator : MonoBehaviour
     static RenderingSettings renderingSettings = new RenderingSettings();
     const int MAX_RES = 1920;
 
-    string path = "F:/.Downloads/jov-11-5-8.pdf";
+    string path;
     Document doc;
 
     int currentPage = 0;
 
-    void Start()
-    {
-        Open();
-    }
-
-    void Open()
+    public void Open(string p)
 	{
+        path = p;
+
         FileStream fs = new FileStream(path, FileMode.Open);
         doc = new Document(fs, EngineSettings.GlobalSettings);
 
@@ -37,25 +35,24 @@ public class PdfNavigator : MonoBehaviour
 
     void GoToPage(int p)
 	{
-        //SEMAPHORE NEEDED HERE
+        //Stop multiple changes at the same time
+        if (changeTextureSemaphore) return;
+        changeTextureSemaphore = true;
 
         p = Mathf.Clamp(p, 0, doc.Pages.Count);
         currentPage = p;
+
+        transform.GetChild(0).GetComponent<TextMeshPro>().text = $"{p+1}/{doc.Pages.Count}";
 
         Page page = doc.Pages[p];
 
         StartCoroutine(nameof(ChangeTexture), page);
     }
 
-
     bool changeTextureSemaphore = false;
     const int MAX_TEXTURE_FILL_PER_FRAME = 100000;
     IEnumerator ChangeTexture(Page page)
 	{
-        //Stop multiple changes at the same time
-        if (changeTextureSemaphore) yield break;
-        changeTextureSemaphore = true;
-
         //Calculate resolution
         Vector2 fRes = (MAX_RES * new Vector2((float)page.Width, (float)page.Height) / Mathf.Max((float)page.Width, (float)page.Height));
         Vector2Int res = new Vector2Int((int)fRes.x, (int)fRes.y);
