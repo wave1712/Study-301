@@ -13,8 +13,7 @@ public class Book : MonoBehaviour
 
     public void Init(string p)
     {
-        path = p;
-        //GetComponentInChildren<PdfNavigator>().Open(path);
+        path = p;        
         title = Path.GetFileName(path);
         title = title.Substring(0, title.Length - 4);
         transform.GetChild(1).GetComponent<TextMeshPro>().text = title;
@@ -35,6 +34,11 @@ public class Book : MonoBehaviour
         tex.SetPixel(1, 0, Color.grey);
         tex.Apply();
         GetComponent<MeshRenderer>().material.SetTexture("_BaseMap", tex);
+    }
+
+    public void Open()
+	{
+        GetComponentInChildren<PdfNavigator>().Open(path);
     }
 
 }
