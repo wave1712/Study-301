@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
   m_Name: PalletAddressableAssetSettings
   m_EditorClassIdentifier: 
-  m_DefaultGroup: 819b4dd8b7001ba45b1ce8ae145fc89d
+  m_DefaultGroup: 301e7f80838763042a51432755863e6f
   m_CachedHash:
     serializedVersion: 2
     Hash: 00000000000000000000000000000000
@@ -42,7 +42,10 @@ MonoBehaviour:
   m_overridePlayerVersion: '[ModID]'
   m_GroupAssets:
   - {fileID: 11400000, guid: ae3a232e9ab2e4248881cf9192834b2f, type: 2}
-  - {fileID: 11400000, guid: 023d9a19327d10c4580299919143dcb1, type: 2}
+  - {fileID: 11400000, guid: c35da3b4437286c479afa4c8f969e1fd, type: 2}
+  - {fileID: 11400000, guid: 9c641674decfb1d4f9eadd77469fc7be, type: 2}
+  - {fileID: 11400000, guid: eab234e6f952988408016cae64e6ff75, type: 2}
+  - {fileID: 11400000, guid: 4a5de03d5840b5a4da7ed8d2c92a95bf, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1

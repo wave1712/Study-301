@@ -9,7 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a189bb168d8d90478a09ea08c2f3d72, type: 3}
-  m_Name: DefaultObject
+  m_Script: {fileID: 11500000, guid: 1910159ced7b0ca439631241a1df5fd1, type: 3}
+  m_Name: KIT301STUDY_Levels_PalletGroupSchema
   m_EditorClassIdentifier: 
-  m_AddressableAssetSettingsGuid: 6c232cd8df7cb6d46b7dbf4b7385b79c
+  m_Group: {fileID: 11400000, guid: 9c641674decfb1d4f9eadd77469fc7be, type: 2}
+  _pallet: {fileID: 11400000, guid: 8726a2fd1994a7043bba98951dd14d32, type: 2}
