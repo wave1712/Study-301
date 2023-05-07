@@ -10,16 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: Default Local Group
+  m_Name: KIT301STUDY_Levels
   m_EditorClassIdentifier: 
-  m_GroupName: Default Local Group
+  m_GroupName: KIT301STUDY_Levels
   m_Data:
     m_SerializedData: []
-  m_GUID: 301e7f80838763042a51432755863e6f
-  m_SerializeEntries: []
+  m_GUID: 6ee7912f9a604c74e946deaea88e2495
+  m_SerializeEntries:
+  - m_GUID: d5fe2952d3e0e5b41bc8bf695cb6c7b7
+    m_Address: Level/Test Level
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 6c232cd8df7cb6d46b7dbf4b7385b79c, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: 9febb9198eda9334886f677e8bb320f8, type: 2}
-    - {fileID: 11400000, guid: 8be1caeee7b98714483c8369ae823b02, type: 2}
+    - {fileID: 11400000, guid: 44966feff28142e45bac4443d4145e4a, type: 2}
+    - {fileID: 11400000, guid: 81a258c9a61bea646b95f2ff062a0bca, type: 2}
+    - {fileID: 11400000, guid: 4f4bd63d9f3f86640babcccb52878509, type: 2}

@@ -10,16 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: Default Local Group
+  m_Name: KIT301STUDY_Spawnables
   m_EditorClassIdentifier: 
-  m_GroupName: Default Local Group
+  m_GroupName: KIT301STUDY_Spawnables
   m_Data:
     m_SerializedData: []
-  m_GUID: 301e7f80838763042a51432755863e6f
+  m_GUID: b76ac762e1011934693c40e0c08a2daf
   m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 6c232cd8df7cb6d46b7dbf4b7385b79c, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: 9febb9198eda9334886f677e8bb320f8, type: 2}
-    - {fileID: 11400000, guid: 8be1caeee7b98714483c8369ae823b02, type: 2}
+    - {fileID: 11400000, guid: d8c3eabf4be03a1488aee1e089b52a0f, type: 2}
+    - {fileID: 11400000, guid: f1518fae318ed4846bb7d5a392cb149c, type: 2}
+    - {fileID: 11400000, guid: 63818ae134134da4fb84841ccb0f69e4, type: 2}
