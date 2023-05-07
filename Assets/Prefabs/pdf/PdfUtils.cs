@@ -53,7 +53,7 @@ public class PdfUtils : MonoBehaviour
                 t.Start();
 
                 //wait until the thread finishes
-                while (t.ThreadState == ThreadState.Running || t.ThreadState == ThreadState.WaitSleepJoin)
+                while (t.ThreadState != ThreadState.Stopped && t.ThreadState != ThreadState.Aborted)
                 {
                     yield return new WaitForEndOfFrame();
                 }
@@ -114,7 +114,7 @@ public class PdfUtils : MonoBehaviour
 					}
                     else
 					{
-                        img[i] = Color.white;
+                        img[i] = Color.gray;
                     }
 
                     //Time management
@@ -133,6 +133,10 @@ public class PdfUtils : MonoBehaviour
                 tex.Apply();
 
                 completeAction(tex);
+
+                yield return new WaitForEndOfFrame();
+
+                GC.Collect();
             }
             yield return new WaitForEndOfFrame();
         }
