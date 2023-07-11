@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2505b25ddfc1ccf418da1689d2daf024, type: 3}
+  m_Name: Classroom
+  m_EditorClassIdentifier: 
+  _barcode:
+    _id: KIT301Study.Classroom.Level.Classroom
+    generated: 1
+  _barcodeOld:
+    _id: null.empty.barcode
+    generated: 0
+  _slimCode:
+    _byteArray: 
+  _title: Classroom
+  _description: 
+  _unlockable: 0
+  _redacted: 0
+  _pallet: {fileID: 11400000, guid: 60d78c4aabf4a7e40ab02538939ab1a1, type: 2}
+  _tags: []
+  _mainAsset:
+    _assetGUID: 798891a30ea43d54e8bde50b8ff508c2
+    _editorAssetChanged: 0
+  _additionalAssetReferences: []
+  _multiScene: 0
+  _persistentScenes: []
+  _chunkScenes: []
+  _editorScenes: []

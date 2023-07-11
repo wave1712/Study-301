@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Classroom_VFXs
+  m_EditorClassIdentifier: 
+  m_GroupName: Classroom_VFXs
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 097e9205121ad174288e08819864a4de
+  m_SerializeEntries: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 155f9f2d8e2c01546b0f636f43953407, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 57b521ce210ce7346bb2c32a1cf0343e, type: 2}
+    - {fileID: 11400000, guid: 92c63c1dc34e38642bebec06387f01b7, type: 2}
+    - {fileID: 11400000, guid: f64fbb061dece964397b8a6ccf3aee9d, type: 2}

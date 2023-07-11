@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de517cb7ceb69094c9be5096a8570bda, type: 3}
+  m_Name: ClassroomFlaskBase
+  m_EditorClassIdentifier: 
+  elixirGUIDs:
+  - 81cde79e87ed670438ad2064d0619623
+  - b4f2799d307dd4373b855bb62302c3ae
+  - eacc56257ea8e496a89322ea92ca81aa
+  - 209918f9653f6c843aeb437d2fbeee17
+  - dc7434d961fe5e1498b6d857b7c84132
+  useDefaultIngredients: 1
+  ingredients: []
+  additionalIngredients: []

@@ -3,7 +3,73 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Conductor
+  - Tornado
+  - Butter
+  - Grass
+  - PPaint
+  - Freezable
+  - water
+  - SkyMasterTree
+  - Flamer
+  - Flammable
+  - NoForcePDM
+  - Road
+  - interactable
+  - WP
+  - Zombie
+  - Item
+  - Door
+  - Key
+  - FxTemporaire
+  - Level
+  - Pickup
+  - projectile
+  - BakeryProcessed
+  - Zone/SpawnTracker
+  - Zone/Scene
+  - Ship
+  - Attachment
+  - LootChute
+  - Metal
+  - VHSTape
+  - cartridge
+  - NoDamage
+  - Wood
+  - Physics
+  - sparks
+  - Glass
+  - CaveDungeonHide
+  - NoGravityGun
+  - carpet
+  - PickableItem
+  - Flashlight
+  - Elevator
+  - ElevatorButtonOpen
+  - ElevatorNumericButton
+  - ElevatorGoButton
+  - LootSpawner
+  - TackleBox
+  - GWLock
+  - ShipPanel
+  - ObjectPool
+  - Target
+  - agent
+  - ground
+  - target
+  - sidewall
+  - checkpoint
+  - road
+  - obstacle
+  - TrainRod
+  - Default
+  - jump
+  - boostpad
+  - goal
+  - boid
+  - Whiteboard
+  - PenColour
   layers:
   - Default
   - TransparentFX
@@ -13,31 +79,34 @@ TagManager:
   - UI
   - 
   - 
+  - Player
+  - NoCollide
+  - Dynamic
+  - StereoRender_Ignore
+  - EnemyColliders
+  - Static
+  - SpawnGunUI
+  - Interactable
+  - Hand
+  - HandOnly
+  - Socket
+  - Plug
+  - InteractableOnly
+  - PlayerAndNpc
+  - NoSelfCollide
+  - FeetOnly
+  - Feet
+  - NoFootBall
+  - Tracker
+  - Trigger
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Background
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 588598653
     locked: 0
